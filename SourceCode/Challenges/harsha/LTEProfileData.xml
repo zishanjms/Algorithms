@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SAPCProfileLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SAPCProfileList key="value">
+		<Market Name="Barbados">
+			<Technology Type="LTE">
+				<SAPCProfile key="value">
+					<ID>ID402</ID>
+					<CumulativeQuotaGreaterThan QuotaUnit="GB">1</CumulativeQuotaGreaterThan>
+					<CumulativeQuotalessThan QuotaUnit="GB">2</CumulativeQuotalessThan>
+				</SAPCProfile>
+				<SAPCProfile key="value">
+					<ID>ID403</ID>
+					<CumulativeQuotaGreaterThan QuotaUnit="GB">2</CumulativeQuotaGreaterThan>
+					<CumulativeQuotalessThan QuotaUnit="GB">3</CumulativeQuotalessThan>
+				</SAPCProfile>
+				<SAPCProfile key="value">
+					<ID>ID404</ID>
+					<CumulativeQuotaGreaterThan QuotaUnit="GB">3</CumulativeQuotaGreaterThan>
+					<CumulativeQuotalessThan QuotaUnit="GB">4</CumulativeQuotalessThan>
+				</SAPCProfile>
+			</Technology>
+			<Technology Type="NoNLTE">
+				<SAPCProfile key="value">
+					<ID>ID01</ID>
+					<CumulativeQuotaGreaterThan QuotaUnit="GB">0</CumulativeQuotaGreaterThan>
+					<CumulativeQuotalessThan QuotaUnit="GB">1</CumulativeQuotalessThan>
+				</SAPCProfile>
+				<SAPCProfile key="value">
+					<ID>ID02</ID>
+					<CumulativeQuotaGreaterThan QuotaUnit="GB">1</CumulativeQuotaGreaterThan>
+					<CumulativeQuotalessThan QuotaUnit="GB">2</CumulativeQuotalessThan>
+				</SAPCProfile>
+			</Technology>
+		</Market>
+	</SAPCProfileList>
+</SAPCProfileLists>
