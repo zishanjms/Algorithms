@@ -29,7 +29,7 @@ public class TestClass1 {
 		HashSet<Integer> diffSet = new HashSet<Integer>();
 		diffSet.add(arr[start]);
 		for(int i= start+1; i<arr.length - M; i++){
-			diffSet.add(e);
+			//diffSet.add(e);
 		}
 		
 		return result;
